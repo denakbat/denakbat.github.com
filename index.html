@@ -16,13 +16,22 @@
     img { max-width:100%; height:auto; margin-bottom:20px; }
     a { color:#006837; text-decoration:none; }
     a:hover { text-decoration:underline; }
+    .header-container { display: flex; flex-direction: column; align-items: center; }
+    .header-title { display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap; }
+    .header-title img { height: 60px; }
+    .header-title h1 { margin: 0; font-size: 2em; }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>Centro Vasco Denak Bat</h1>
-  <p>Lomas de Zamora · Euskal Etxea</p>
+  <div class="header-container">
+    <div class="header-title">
+      <img src="images/ikurrina.png" alt="Ikurriña">
+      <h1>Centro Vasco Denak Bat</h1>
+    </div>
+    <p>Lomas de Zamora · Euskal Etxea</p>
+  </div>
 </header>
 
 <main>
