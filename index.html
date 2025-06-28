@@ -8,7 +8,15 @@
   <title>Centro Vasco Denak Bat – Euskal Etxea en Lomas de Zamora</title>
   <style>
     body { font-family: sans-serif; margin:0; padding:0; background:#f5f5f5; }
-    header { background:#006837; color:#fff; padding:20px; text-align:center; }
+    header {
+      background: url('images/ikurrina-header.png') no-repeat center center;
+      background-size: cover;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 2.5em; text-shadow: 1px 1px 4px #000; }
+    header p { font-size: 1.2em; text-shadow: 1px 1px 3px #000; }
     main { padding:20px; max-width:800px; margin:auto; background:#fff; }
     h1, h2 { color:#006837; }
     .info, ul { margin-bottom:20px; }
@@ -16,22 +24,13 @@
     img { max-width:100%; height:auto; margin-bottom:20px; }
     a { color:#006837; text-decoration:none; }
     a:hover { text-decoration:underline; }
-    .header-container { display: flex; flex-direction: column; align-items: center; }
-    .header-title { display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap; }
-    .header-title img { height: 60px; }
-    .header-title h1 { margin: 0; font-size: 2em; }
   </style>
 </head>
 <body>
 
 <header>
-  <div class="header-container">
-    <div class="header-title">
-      <img src="images/ikurrina.png" alt="Ikurriña">
-      <h1>Centro Vasco Denak Bat</h1>
-    </div>
-    <p>Lomas de Zamora · Euskal Etxea</p>
-  </div>
+  <h1>Centro Vasco Denak Bat</h1>
+  <p>Lomas de Zamora · Euskal Etxea</p>
 </header>
 
 <main>
